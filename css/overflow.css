@@ -1,0 +1,33 @@
+#box1
+{
+    border:2px solid;
+    height: 50px;
+    overflow: visible;
+}
+#box2
+{
+    border:2px solid;
+    height: 50px;
+    overflow: hidden;
+}
+#box3
+{
+    border:2px solid;
+    height: 50px;
+    overflow: clip;
+    overflow-clip-margin:60px;
+}
+#box4
+{
+    border:2px solid;
+    height: 50px;
+    overflow: scroll;
+}
+#box5
+{
+    border:2px solid;
+    height: 50px;
+    overflow: auto;
+}
+
+

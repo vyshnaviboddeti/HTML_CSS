@@ -1,0 +1,28 @@
+body{
+    background-color: rgb(177, 177, 198);
+}
+
+.gallery {
+    display: inline-block;
+    border: 1px solid grey;
+    margin: 5px;
+    width: 200px;
+}
+
+.gallery .description {
+    padding: 10px;
+    text-align: center;
+}
+
+.gallery:hover {
+    border: 3px solid rgb(145, 18, 18);
+}
+
+.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+#shi{
+    height: 200px;
+}

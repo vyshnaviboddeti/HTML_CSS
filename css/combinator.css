@@ -1,0 +1,18 @@
+#container{
+    border: 2px solid;
+}
+
+#container  p{
+    background-color: blue;
+}
+#container >p{
+    background-color: aqua;
+}
+
+#container ~p{
+    background-color: rgb(85, 33, 141);
+}
+
+#container +p{
+    background-color: brown;
+}

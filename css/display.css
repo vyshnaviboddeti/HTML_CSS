@@ -1,0 +1,16 @@
+div{
+    height: 100px;
+    width: 100px;
+    background-color: blueviolet;
+    display: none;/* div missed*/
+    display: block;/*takes block*/
+    display: inline;/*takes enough space*/
+}
+span{
+    height: 100px;
+    width: 100px;
+    display: block;
+    display: inline-block;
+    visibility: hidden;/*span will be hidden but takes empty spaces*/
+    background-color: rgb(43, 159, 101);
+}

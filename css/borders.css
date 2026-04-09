@@ -1,0 +1,13 @@
+h1{
+    border-style: double;
+    border-width: 2px;
+    border-color: rgb(25, 0, 255);
+    border-radius: 20px;
+}
+#borders{
+    border-top: 2px solid red;
+    border-bottom: 2px groove blueviolet;
+    border-left: 3px dotted green;
+    border-right: 3px dotted green;
+
+}

@@ -1,0 +1,39 @@
+.box{
+    height: 150px;
+    width: 150px;
+    font-size: 8em;
+    text-align: center;
+    border-radius: 15px;
+}
+#box1{
+    background-color: brown;
+}
+
+#box2{
+    background-color: rgb(79, 42, 165);
+}
+
+#box3{
+    background-color: rgb(165, 42, 83);
+}
+
+#box4{
+    background-color: rgb(42, 165, 101);
+}
+/*
+flex-direction: row-reverse;
+    flex-direction: row;
+    flex-direction: column;
+    flex-direction: column-reverse
+    justify-content: flex-start
+        justify-content: flex-end
+        justify-content: space-between;
+;*/
+.container{
+    display: flex;
+    /*we can apply any above feature*/
+    border: 10px solid black;
+    height: 90vh;
+    align-items: baseline;
+    flex-direction: column-reverse; 
+}

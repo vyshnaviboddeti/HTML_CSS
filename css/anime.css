@@ -1,0 +1,64 @@
+body{
+    background-color: bisque;
+}
+
+.box{
+    width:250px;
+    height: 250px;
+    background-color: rgb(148, 47, 47);
+    font-size: 2em;
+    text-align: center;
+    animation-name: grow;
+    animation-duration: 2s;
+    animation-direction: normal;
+    animation-iteration-count: steps(2);
+
+}
+@keyframes slideLeft {
+        from{
+            transform:translateX(100px);
+            transform: translateY(300%);/* up*/
+        }
+    }
+.box1{
+    width:250px;
+    height: 250px;
+    background-color: rgb(69, 47, 148);
+    font-size: 2em;
+    text-align: center;
+    animation-name: colorchange;
+    animation-duration: 3s;
+}
+
+@keyframes slideRight {
+        to{
+            transform:translateX(100px);
+            transform:translateY(100%);/* down*/
+        }
+    }
+@keyframes rotate{
+    50% {transform: rotateX(360deg);
+    }
+}
+@keyframes grow{
+    100% {transform: scale(2,2);}
+}
+
+@keyframes shrink{
+    100%{transform: scale(0.5,0.5);}
+}
+@keyframes fade{
+    50% {opacity: 0};
+}
+
+@keyframes colorchange{
+    0%{background-color: black}
+    20%{background-color: blue}
+    40%{background-color: yellow}
+    60%{background-color: rgb(32, 137, 67)}
+    80%{background-color: rgb(14, 88, 130)}
+    }
+@keyframes glow{
+    50%{box-shadow: 0px 0px 50px rgb(56, 5, 53);
+    }
+}

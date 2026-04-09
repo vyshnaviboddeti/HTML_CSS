@@ -1,0 +1,13 @@
+*{
+    box-sizing: border-box;
+}
+.box{
+    border: 25px solid;
+    height: auto;
+    padding: 25px;
+    width: 50%;
+    float: left;
+    text-align: center;
+    max-height: 100px;
+    max-width: 500px;
+}

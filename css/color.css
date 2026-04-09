@@ -1,0 +1,19 @@
+body{
+    /* NAMED COLORS   */
+    background-color:black;
+}
+
+#p1{
+    /*RGB-RED BLUE GREEN*/
+    color:rgb(124,24,24)
+}
+
+#p2{
+    /* HEXA COLORS */
+    color: #131f79;
+}
+
+#p3{
+/* HSL-hue,saturation,lightness */
+    color: hsl(0, 23%, 38%);
+}

@@ -1,0 +1,29 @@
+h1{
+    background-color: aqua;
+}
+
+h1::first-letter{
+    background-color: aqua;
+    font-size: 2em;
+    font-style: italic;
+}
+
+p::first-line{
+    background-color: blueviolet;
+}
+
+p::selection{
+    color: brown;
+    background-color: burlywood;
+}
+
+#food li::before{
+    content: "💕";
+}
+#food li::after{
+    content: "💕";
+}
+#food li::marker{
+    content: "👻";
+    font-size: 2em;
+}

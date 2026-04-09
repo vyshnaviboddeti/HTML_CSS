@@ -1,0 +1,18 @@
+body{
+    background-color: black;
+}
+p{
+    color: bisque;
+}
+#p1{
+    color: burlywood;
+}
+#p2{
+    color: chocolate;
+}
+.odd{
+    color:cornflowerblue
+}
+.even{
+    color: darkred;
+}

@@ -1,0 +1,13 @@
+#doramon{
+    float:left;
+    border: inset;
+
+}
+#shinchan{
+    float: right;
+    border:outset
+}
+main{
+    border:1.5px double rgb(109, 47, 145);
+    display: flow-root;/*makes everything displays inside the box and prevents overflow of the content so that it cannot exceeds the border*/
+}
